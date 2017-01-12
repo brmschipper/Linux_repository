@@ -8,6 +8,10 @@
 # Calculate NDVI from LandSat image and resample and reproject the result
 
 # DESCRIPTION
+
+# Create outputfolder
+mkdir output
+
 # Assign the Landsat-image in the subfolder 'data' to a variable
 fn=$(ls data/*.tif)
 
